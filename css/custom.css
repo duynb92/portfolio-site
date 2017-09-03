@@ -363,9 +363,18 @@ a:hover {
     color: #4C7092;
 }
 
+a, a.active, a:active, a:focus, a:hover {
+    color: #4C7092;
+    outline: 0;
+}
+
 .lifestyle-icon
 {
     font-size: 50px;
     margin-top: 15px;
+}
 
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #607D8B;
+    outline: 0;
 }
