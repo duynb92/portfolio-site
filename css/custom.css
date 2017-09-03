@@ -33,6 +33,7 @@ section.masthead {
 }
 
 .section-skill {
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -71,10 +72,11 @@ section.masthead {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border: 12px solid #fff;
+    border: 12px solid #049dff;
     position: absolute;
     top: 0;
     left: 0;
+    opacity: 0.3;
 }
 .progress-circle > span{
     width: 50%;
@@ -288,4 +290,71 @@ footer .footer-below {
 
 .footer-link {
     float:right;
+}
+
+section.about-head {
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+section.about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+header.masthead {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #2c3e50;
+    background: #FFFFFF; }
+    header.masthead img {
+      display: block;
+      margin: 0 auto 20px; }
+    header.masthead .intro-text .name {
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 2em;
+      font-weight: 700;
+      display: block;
+      text-transform: uppercase; }
+    header.masthead .intro-text .skills {
+      font-size: 1.25em;
+      font-weight: 300; }
+  
+  @media (min-width: 768px) {
+    header.masthead {
+      padding-top: 200px;
+      padding-bottom: 100px; }
+      header.masthead .intro-text .name {
+        font-size: 4.75em; }
+      header.masthead .intro-text .skills {
+        font-size: 1.75em; } }
+
+p.large {
+    font-size: 28px;
+}
+
+.timeline-text {
+margin-top: 8px;
+}
+
+h4 {
+        font-weight: 400;
+        text-transform: none;
+}
+
+.about-btn-social 
+{
+    font-size: 26px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: #2c3e50;
+    margin-left: 20px;
+    margin-top : 2px;
+}
+
+a:hover {
+    color: #4C7092;
 }
