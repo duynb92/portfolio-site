@@ -384,6 +384,11 @@ a.platform-icon {
     outline: 0;
 }
 
+#mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
+    color: #fff;
+    border-color: #607D8B;
+    background-color: #607D8B;
+}
 .portfolio-icon
 {
     margin-right: 10px;

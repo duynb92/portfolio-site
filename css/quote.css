@@ -102,7 +102,7 @@ blockquote footer {
 
 @media only screen and (max-width: 768px){  
     #quotetext {font-size:25px; }
-	.container {	margin-right:20px;}
+	/* .container {	margin-right:20px;} */
     }
 @media only screen and (max-width: 320px){  
     #quotetext {font-size:18px; }
