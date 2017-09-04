@@ -368,6 +368,11 @@ a, a.active, a:active, a:focus, a:hover {
     outline: 0;
 }
 
+a.platform-icon {
+    color: #2c3e50;
+    text-decoration:none;
+}
+
 .lifestyle-icon
 {
     font-size: 50px;
@@ -378,3 +383,232 @@ a, a.active, a:active, a:focus, a:hover {
     color: #607D8B;
     outline: 0;
 }
+
+.portfolio-icon
+{
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.project-title 
+{
+    margin-left: 25px;
+}
+
+.platform-icon
+{
+    font-size : 24px;
+}
+
+.portfolio-table
+{
+    border: 1px solid #C3C3C3;
+    padding: 20px 10px;
+    background-color: #f8f8f8;
+}
+
+.portfolio-grid {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Divide Line */
+hr.divide-light,
+hr.divide-primary {
+  text-align: center;
+  border: none;
+  border-top: solid 1px;
+  margin-left: 2px;
+  margin-right: 2px;
+ }
+
+ hr.divide-primary.custom {
+     margin-left : 25px;
+ }
+
+hr.divide-light {
+  border-color: white; }
+
+hr.divide-light:after {
+  color: white;
+  background-color: #18BC9C; }
+
+hr.divide-primary {
+  border-color: #C3C3C3; }
+
+hr.divide-primary:after {
+  color: #C3C3C3;
+  background-color: white; }
+
+/* Divine Line */
+hr.education-light,
+hr.education-primary {
+  max-width: 250px;
+  margin: 25px auto 30px;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 5px; }
+
+hr.education-light:after,
+hr.education-primary:after {
+  font-family: FontAwesome;
+  font-size: 2em;
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 0.25em;
+  content: '\f19d'; }
+
+hr.education-light {
+  border-color: white; }
+
+hr.education-light:after {
+  color: white;
+  background-color: #18BC9C; }
+
+hr.education-primary {
+  border-color: #2C3E50; }
+
+hr.education-primary:after {
+  color: #2C3E50;
+  background-color: white; }
+
+
+  hr.certificate-light,
+  hr.certificate-primary {
+    max-width: 250px;
+    margin: 25px auto 30px;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid 5px; }
+  
+  hr.certificate-light:after,
+  hr.certificate-primary:after {
+    font-family: FontAwesome;
+    font-size: 2em;
+    position: relative;
+    top: -.8em;
+    display: inline-block;
+    padding: 0 0.25em;
+    content: '\f0a3'; }
+  
+  hr.certificate-light {
+    border-color: white; }
+  
+  hr.certificate-light:after {
+    color: white;
+    background-color: #18BC9C; }
+  
+  hr.certificate-primary {
+    border-color: #2C3E50; }
+  
+  hr.certificate-primary:after {
+    color: #2C3E50;
+    background-color: white; }
+
+
+    hr.work-light,
+    hr.work-primary {
+      max-width: 250px;
+      margin: 25px auto 30px;
+      padding: 0;
+      text-align: center;
+      border: none;
+      border-top: solid 5px; }
+    
+    hr.work-light:after,
+    hr.work-primary:after {
+      font-family: FontAwesome;
+      font-size: 2em;
+      position: relative;
+      top: -.8em;
+      display: inline-block;
+      padding: 0 0.25em;
+      content: '\f108'; }
+    
+    hr.work-light {
+      border-color: white; }
+    
+    hr.work-light:after {
+      color: white;
+      background-color: #18BC9C; }
+    
+    hr.work-primary {
+      border-color: #2C3E50; }
+    
+    hr.work-primary:after {
+      color: #2C3E50;
+      background-color: white; }
+
+      
+
+      hr.quote-light,
+      hr.quote-primary {
+        max-width: 250px;
+        margin: 25px auto 30px;
+        padding: 0;
+        text-align: center;
+        border: none;
+        border-top: solid 5px; }
+      
+      hr.quote-light:after,
+      hr.quote-primary:after {
+        font-family: FontAwesome;
+        font-size: 2em;
+        position: relative;
+        top: -.8em;
+        display: inline-block;
+        padding: 0 0.25em;
+        content: '\f10e'; }
+      
+      hr.quote-light {
+        border-color: white; }
+      
+      hr.quote-light:after {
+        color: white;
+        background-color: #18BC9C; }
+      
+      hr.quote-primary {
+        border-color: #2C3E50; }
+      
+      hr.quote-primary:after {
+        color: #2C3E50;
+        background-color: white; }
+
+        
+        hr.lifestyle-light,
+        hr.lifestyle-primary {
+          max-width: 250px;
+          margin: 25px auto 30px;
+          padding: 0;
+          text-align: center;
+          border: none;
+          border-top: solid 5px; }
+        
+        hr.lifestyle-light:after,
+        hr.lifestyle-primary:after {
+          font-family: FontAwesome;
+          font-size: 2em;
+          position: relative;
+          top: -.8em;
+          display: inline-block;
+          padding: 0 0.25em;
+          content: '\f000'; }
+        
+        hr.lifestyle-light {
+          border-color: white; }
+        
+        hr.lifestyle-light:after {
+          color: white;
+          background-color: #18BC9C; }
+        
+        hr.lifestyle-primary {
+          border-color: #2C3E50; }
+        
+        hr.lifestyle-primary:after {
+          color: #2C3E50;
+          background-color: white; }
+
+  
