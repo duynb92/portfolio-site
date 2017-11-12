@@ -616,4 +616,7 @@ hr.education-primary:after {
           color: #2C3E50;
           background-color: white; }
 
-  
+          .upwork-icon {
+            background-image: url(../img/upwork-256.png);
+            background-size: cover;
+        }
